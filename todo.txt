@@ -1,0 +1,8 @@
+1. Authentication for private blog
+2. Commenting
+3. Mail alerts for comments and emails (maybe a digest?)
+4. Keyboard shortcuts
+5. Better utilization of white space
+6. Ability to change colors/themes (only bg/fg sepia, white, night themes)
+7. Ability to shrink/close left when reading a post
+8. Invite/change password

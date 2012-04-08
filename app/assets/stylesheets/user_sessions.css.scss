@@ -1,0 +1,31 @@
+// Place all the styles related to the UserSessions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1.login {
+  padding-left: 3em; 
+}
+
+#new_user_session label {
+	  font-size: 16px;
+	  color: #000;
+	  margin: 0 8px 0 0;
+	  float: left;
+	  width: 100px;
+	  text-align: right;
+}
+
+#new_user_session .check,
+#new_user_session .submit {
+  padding-left: 7em;
+}
+
+#new_user_session .check label {
+  float: none;
+  text-align: left;
+	font-weight: normal;
+}
+
+#new_user_session > div {
+  padding: 1em 0;
+}
