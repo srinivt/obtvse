@@ -6,12 +6,14 @@ srinivt: Making Obtvse a multi-user private commentable blog. See todo.txt for t
 
 Thanks be to NateW for Obtvse :)
 
-Done:
- - multi-user support
- - auth/login
+Done
+====
+- multi-user support
+- auth/login
 
-Todo:
- - comments
- - forgot password
- - user reg
+Todo
+=====
+- comments
+- forgot password
+- user reg
 
