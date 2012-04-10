@@ -1,0 +1,9 @@
+= form_for @post.root_comments.new, :url => comments_url do |f|
+  = f.hidden_field :commentable, :value => @post.id
+  = f.hidden_field :user, :value => @current_user.id
+  %div
+    = f.text_area :body
+  %div.submit
+    = f.submit "Comment", :class => 'button'
+  %div.clear-both
+

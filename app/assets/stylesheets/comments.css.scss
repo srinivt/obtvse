@@ -1,0 +1,60 @@
+#new_comment {
+  margin: 2em 0;
+  width: 600px;
+  font-size: 90%;
+  /*
+  background: #eee;
+  border-radius: 0.3em;
+  border: 1px solid #bbb;
+  */
+  
+  textarea {
+    height: 70px;
+	  margin-bottom: 1em;
+	  width: 100%;
+	  background: white;
+    border-radius: 0.2em;
+    border: 1px solid #cecece;
+    font-size: 90%;
+    padding: 0.1em 0.6em;
+  }
+  
+  textarea:hover,
+  textarea:focus {
+    border: 1px solid #ababab;
+  }
+  
+  .submit {
+    float: right;
+    
+    input {
+      font-size: 90%;
+      padding: 5px 10px;
+    }
+  }
+}
+
+.comment {
+  font-size: 90%;
+  width: 600px;
+  
+  .content {
+    border-left: 2px solid #ddd;
+    padding-left: 0.5em;
+  }
+  
+  .head {
+    font-size: 95%;
+    color: #333;
+    margin-top: 1em;
+    /* text-decoration: underline; */
+  }
+}
+
+.clear-both {
+  clear: both;
+}
+
+#content section.comment-section {
+  padding-top: 0;
+}

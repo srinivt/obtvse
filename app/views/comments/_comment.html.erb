@@ -1,0 +1,6 @@
+<div class='comment'>
+  <div class='head'>
+	<b><%= comment.user.login %></b> said <%= time_ago_in_words(comment.user.created_at) %> ago: 
+	</div>
+	<div class='content'> <%= comment.body %> </div>
+</div>
